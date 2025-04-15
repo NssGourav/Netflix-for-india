@@ -71,18 +71,19 @@ function App() {
     <div className="netflix-container">
       <header className="netflix-header">
         <div className="netflix-logo">NETFLIX INDIA</div>
-        <div className="flex gap-4">
+        <div className="search-container">
+          <span className="search-icon">🔍</span>
           <input
             type="text"
             placeholder="Search movies..."
             value={search}
             onChange={e => setSearch(e.target.value)}
-            className="px-4 py-2 rounded bg-gray-700 text-white focus:outline-none"
+            className="search-input"
           />
           <select
             value={genre}
             onChange={e => setGenre(e.target.value)}
-            className="px-4 py-2 rounded bg-gray-700 text-white focus:outline-none"
+            className="filter-select"
           >
             {genres.map(g => (
               <option key={g} value={g}>{g}</option>

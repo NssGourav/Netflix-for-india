@@ -27,6 +27,59 @@ body {
   font-size: 2rem;
 }
 
+/* Search Bar Styling */
+.search-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.search-icon {
+  position: absolute;
+  left: 10px;
+  color: #999;
+  font-size: 18px;
+}
+
+.search-input {
+  background-color: rgba(0, 0, 0, 0.75);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: white;
+  padding: 10px 10px 10px 35px;
+  border-radius: 4px;
+  width: 240px;
+  transition: all 0.3s ease;
+}
+
+.search-input:focus {
+  background-color: #000;
+  border-color: #e50914;
+  width: 280px;
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(229, 9, 20, 0.3);
+}
+
+.search-input::placeholder {
+  color: #999;
+}
+
+.filter-select {
+  background-color: rgba(0, 0, 0, 0.75);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: white;
+  padding: 9px 15px;
+  border-radius: 4px;
+  margin-left: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.filter-select:focus {
+  border-color: #e50914;
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(229, 9, 20, 0.3);
+}
+
 /* Hero section */
 .hero-banner {
   position: relative;
@@ -80,6 +133,10 @@ body {
   min-width: 200px;
   transition: transform 0.3s ease;
   cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 .movie-card:hover {
@@ -91,6 +148,53 @@ body {
   height: 300px;
   object-fit: cover;
   border-radius: 4px;
+}
+
+.movie-info {
+  padding: 10px;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.9), transparent);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.movie-description-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.85);
+  color: white;
+  padding: 15px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.movie-description-text {
+  font-size: 0.9rem;
+  line-height: 1.4;
+  margin-bottom: 10px;
+  display: -webkit-box;
+  -webkit-line-clamp: 6;
+  line-clamp: 6;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.movie-year-genre {
+  font-size: 0.8rem;
+  color: #e50914;
+  margin-bottom: 8px;
+}
+
+.movie-card:hover .movie-description-overlay {
+  opacity: 1;
 }
 
 /* Modal */
