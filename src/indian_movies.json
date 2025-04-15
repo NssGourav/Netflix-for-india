@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "title": "3 Idiots",
+    "genre": ["Comedy", "Drama"],
+    "year": 2009,
+    "poster": "https://m.media-amazon.com/images/M/MV5BNTkyOGVjMGEtNmQzZi00NzFlLTlhOWQtODYyMDc2ZGJmYzFhXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg",
+    "description": "Two friends are searching for their long lost companion. They revisit their college days and recall the memories of their friend who inspired them to think differently.",
+    "cast": ["Aamir Khan", "R. Madhavan", "Sharman Joshi", "Kareena Kapoor"],
+    "trailer": "https://www.youtube.com/embed/K0eDlFX9GMc"
+  },
+  {
+    "id": 2,
+    "title": "Gully Boy",
+    "genre": ["Drama", "Music"],
+    "year": 2019,
+    "poster": "https://images.filmibeat.com/img/popcorn/fan_images/movie/15564/gully-boy-ranveer-singh-2019-photos-images-63928.jpg",
+    "description": "A coming-of-age story based on the lives of street rappers in Mumbai.",
+    "cast": ["Ranveer Singh", "Alia Bhatt"],
+    "trailer": "https://www.youtube.com/embed/JfbxcD6biOk"
+  },
+  {
+    "id": 3,
+    "title": "Bahubali: The Beginning",
+    "genre": ["Action", "Drama", "Fantasy"],
+    "year": 2015,
+    "poster": "https://m.media-amazon.com/images/M/MV5BYWVlMjVhZWYtNWViNC00ODFkLTk1MmItYjU1MDY5ZDdhMTU3XkEyXkFqcGdeQXVyODIwMDI1NjM@._V1_.jpg",
+    "description": "In ancient India, an adventurous and daring man becomes involved in a decades-old feud between two warring peoples.",
+    "cast": ["Prabhas", "Rana Daggubati", "Anushka Shetty", "Tamannaah"],
+    "trailer": "https://www.youtube.com/embed/sOEg_YZQsTI"
+  },
+  {
+    "id": 4,
+    "title": "Queen",
+    "genre": ["Comedy", "Drama"],
+    "year": 2013,
+    "poster": "https://m.media-amazon.com/images/M/MV5BNWYyOWRlOWItZWM5MS00ZjJkLWI0MTUtYTE3NTI5MDAwYjgyXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_.jpg",
+    "description": "A Delhi girl from a traditional family sets out on a solo honeymoon after her marriage gets canceled.",
+    "cast": ["Kangana Ranaut", "Rajkummar Rao"],
+    "trailer": "https://www.youtube.com/embed/KGC6vl3lzf0"
+  },
+  {
+    "id": 5,
+    "title": "Dil Chahta Hai",
+    "genre": ["Comedy", "Drama", "Romance"],
+    "year": 2001,
+    "poster": "https://m.media-amazon.com/images/I/81p+xe8cbnL._AC_SY679_.jpg",
+    "description": "Three inseparable childhood friends are just out of college. Nothing comes between them – until they each fall in love, and their wildly different approaches to relationships creates tension.",
+    "cast": ["Aamir Khan", "Saif Ali Khan", "Akshaye Khanna"],
+    "trailer": "https://www.youtube.com/embed/9m3oJ4F2HzQ"
+  },
+  {
+    "id": 6,
+    "title": "RRR",
+    "genre": ["Action", "Drama", "Historical"],
+    "year": 2022,
+    "poster": "https://m.media-amazon.com/images/M/MV5BODUwNDNjYzctODUxNy00ZTA2LWIyYTEtMDc5Y2E5ZjBmNTMzXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_.jpg",
+    "description": "A fictional story about two legendary revolutionaries and their journey away from home before they started fighting for their country in the 1920s.",
+    "cast": ["N.T. Rama Rao Jr.", "Ram Charan", "Alia Bhatt", "Ajay Devgn"],
+    "trailer": "https://www.youtube.com/embed/NgBoMJy386M"
+  },
+  {
+    "id": 7,
+    "title": "Sankranthi Ki Vastunam",
+    "genre": ["Drama", "Family", "Festival"],
+    "year": 2024,
+    "poster": "https://images.filmibeat.com/ph-big/2025/02/sankranthiki-vasthunam-ott-release-date-tv-premiere-confirmed-releasing-in-multi-languages1740376578_0.jpg ",
+    "description": "A heartwarming tale of family reunion during the Sankranthi festival that explores traditions, relationships and cultural values.",
+    "cast": ["Nani", "Sai Pallavi", "Krithi Shetty"],
+    "trailer": "https://www.youtube.com/embed/xkTprOVjIUs"
+  },
+  {
+    "id": 8,
+    "title": "Pushpa: The Rise",
+    "genre": ["Action", "Crime", "Drama"],
+    "year": 2021,
+    "poster": "https://m.media-amazon.com/images/M/MV5BMmQ4YmM3NjgtNTExNC00ZTZhLWEwZTctYjdhOWI4ZWFlMDk2XkEyXkFqcGdeQXVyMTI1NDEyNTM5._V1_FMjpg_UX1000_.jpg",
+    "description": "A laborer rises through the ranks of a red sandalwood smuggling syndicate, making enemies along the way.",
+    "cast": ["Allu Arjun", "Fahadh Faasil", "Rashmika Mandanna"],
+    "trailer": "https://www.youtube.com/embed/pKctjlxbFDQ"
+  },
+  {
+    "id": 9,
+    "title": "Sita Ramam",
+    "genre": ["Drama", "Romance", "Historical"],
+    "year": 2022,
+    "poster": "https://i.pinimg.com/736x/21/af/2c/21af2cc84e93970e5c272e222d0b9570.jpg",
+    "description": "An orphan soldier's life changes when he receives a letter from a girl named Sita. He meets her and love blossoms between them.",
+    "cast": ["Dulquer Salmaan", "Mrunal Thakur", "Rashmika Mandanna"],
+    "trailer": "https://www.youtube.com/embed/Ljk6tGZ1l3A"
+  },
+  {
+    "id": 10,
+    "title": "Balagam",
+    "genre": ["Drama", "Family"],
+    "year": 2023,
+    "poster": "https://media-cache.cinematerial.com/p/500x/ll11s9vs/balagam-indian-movie-poster.jpg?v=1679598280",
+    "description": "A poignant story set in rural Telangana that explores the traditions and rituals following the death of a village elder.",
+    "cast": ["Priyadarshi", "Kavya Kalyanram", "Sudhakar Reddy"],
+    "trailer": "https://www.youtube.com/embed/8R3Vcy5CaPc"
+  }
+]
