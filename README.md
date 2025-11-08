@@ -13,4 +13,4 @@
 - Deploy using Firebase Hosting.
 
 ## 📚 License
-MIT License
+MIT Licensed
