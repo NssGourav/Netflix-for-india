@@ -209,6 +209,8 @@ body {
   justify-content: center;
   align-items: center;
   z-index: 1000;
+  overflow-y: auto;
+  padding: 20px 0;
 }
 
 .modal-content {
@@ -282,4 +284,73 @@ body {
   border-radius: 4px;
   font-weight: bold;
   cursor: pointer;
+}
+
+/* Responsive layout tweaks */
+@media (max-width: 768px) {
+  .netflix-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .search-container {
+    width: 100%;
+  }
+
+  .search-input {
+    width: 100%;
+  }
+
+  .search-input:focus {
+    width: 100%;
+  }
+
+  .hero-banner {
+    height: 60vh;
+  }
+
+  .hero-content {
+    bottom: 10%;
+    left: 5%;
+    max-width: 90%;
+  }
+
+  .hero-title {
+    font-size: 2.2rem;
+  }
+
+  .hero-description {
+    font-size: 1rem;
+  }
+
+  .movie-poster {
+    height: 230px;
+  }
+
+  .modal-content {
+    width: 95%;
+  }
+
+  .modal-poster {
+    height: 260px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-banner {
+    height: 55vh;
+  }
+
+  .hero-title {
+    font-size: 1.8rem;
+  }
+
+  .hero-description {
+    font-size: 0.95rem;
+  }
+
+  .movie-poster {
+    height: 200px;
+  }
 }

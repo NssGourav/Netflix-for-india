@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import movies from './indian_movies.json';
 import './App.css';
 
@@ -17,12 +17,27 @@ function MovieCard({ movie, onSelect }) {
 function MovieModal({ movie, onClose }) {
   if (!movie) return null;
   return (
-    <div className="movie-modal">
-      <div className="modal-content">
-        <button className="modal-close" onClick={onClose}>&times;</button>
+    <div
+      className="movie-modal"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="movie-modal-title"
+      onClick={onClose}
+    >
+      <div className="modal-content" onClick={e => e.stopPropagation()}>
+        <button
+          className="modal-close"
+          onClick={onClose}
+          type="button"
+          aria-label="Close movie details"
+        >
+          &times;
+        </button>
         <img src={movie.poster} alt={movie.title} className="modal-poster" />
         <div className="modal-details">
-          <h2 className="modal-title">{movie.title}</h2>
+          <h2 id="movie-modal-title" className="modal-title">
+            {movie.title}
+          </h2>
           <div className="modal-meta">
             <span>{movie.year}</span>
             <span>{movie.genre.join(', ')}</span>
@@ -53,6 +68,17 @@ function App() {
   const [search, setSearch] = useState('');
   const [genre, setGenre] = useState('All');
 
+  useEffect(() => {
+    const handleKeyDown = event => {
+      if (event.key === 'Escape') {
+        setSelectedMovie(null);
+      }
+    };
+
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, []);
+
   const genres = ['All', ...Array.from(new Set(movies.flatMap(m => m.genre)))];
 
   const filteredMovies = movies.filter(movie => {
@@ -79,11 +105,13 @@ function App() {
             value={search}
             onChange={e => setSearch(e.target.value)}
             className="search-input"
+            aria-label="Search movies by title"
           />
           <select
             value={genre}
             onChange={e => setGenre(e.target.value)}
             className="filter-select"
+            aria-label="Filter movies by genre"
           >
             {genres.map(g => (
               <option key={g} value={g}>{g}</option>
